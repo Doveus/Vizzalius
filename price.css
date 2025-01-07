@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    background-color: gainsboro;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+}
+h1.name {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+h2.price {
+    font-size: 38px;
+    color: black;
+}
+
+.list {
+    list-style-type: disc;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.list li {
+    margin-top: 20px;
+    color: black;
+}
+
+hr {
+    height: 7px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(219, 84, 75);
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+}

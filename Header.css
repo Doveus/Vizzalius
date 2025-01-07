@@ -1,0 +1,23 @@
+.main-header {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(41, 28, 28));
+    position: fixed;
+    top: 0;
+    right: 0; 
+    left: 0;
+    height: 48px;  
+ }
+.header-info {
+    text-align: left;
+    color: rgb(13, 10, 27);
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 14-x 14px 0 14px;
+}
+.header-info a {
+    padding: 0;
+    text-decoration: none;
+ }
+.header-info a:hover {
+    background-color: transparent
+}

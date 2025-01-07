@@ -1,0 +1,110 @@
+h1,h2,h4,p{
+    text-align: center;
+}
+.jumbotron img {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 5px, solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h1{
+    color:ghostwhite;
+    background-color: black;
+    margin: 20px;
+}
+
+.second {
+    margin:5px; 
+}
+
+
+nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    float: left;
+}
+
+a:hover {
+    background-color:rgb(2, 2, 19);    
+}
+.jumbotron {
+    margin-top: 5%;
+  }
+  
+  .title {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+ h3, p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.753);
+}
+.items {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    width: 50%;
+    text-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+   background-color: rgba(43, 38, 38, 0.664);
+   padding: 0%;
+}
+
+.portrait {
+    max-width: 60%;
+   max-height: 350px;
+}
+
+img {
+    border: 20px solid rgb(30, 28, 0);	    
+ }
+ img {
+    border-width: 8px;
+    border-style: solid;
+    border-color: rgb(50, 36, 0);	    
+    border-radius: 8px;	   
+    box-shadow:5px 5px;
+    opacity: 1; 
+ }
+ body{
+    background-image: url("images/cloudy-solid-grey-background-vdmz42yyw3kak60k.jpg");
+ }
+
+ h3, p {
+    text-align: center;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.715);
+ }
+
+ li{
+    color: aliceblue;
+ }
+
+ .ul{
+    text-align:left;
+ }
+
+ .item img{
+    min-height: 150px;
+    max-height: 200px;
+ }
+
+ @media (max-width: 600px) {
+    * {
+        font-size: 2vw;
+        margin: 2px;
+      }
+  }
